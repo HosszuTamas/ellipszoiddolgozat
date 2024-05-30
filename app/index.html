@@ -1,0 +1,51 @@
+<!--
+File: index.html
+Author: Hosszú Tamás
+Copyright: 2024, Hosszú Tamás
+Group: Szoft I/1/N
+Date: 2024-05-30
+Github: https://github.com/hosszutamas/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipszoid</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ellipszoid térfogata</h1>
+      <div class="form">
+        <div class="input">
+          <label for="a" class="form-label">a Tengely</label>
+          <input type="text" class="form-control"
+          id="a">
+        </div>
+        <div class="input">
+          <label for="b" class="form-label">b Tengely</label>
+          <input type="text" class="form-control"
+          id="b">
+        </div>
+        <div class="input">
+          <label for="c" class="form-label">c Tengely</label>
+          <input type="text" class="form-control"
+          id="c">
+        </div>
+        <div>
+          <button class="btn btn-warning mt-2"
+          id="calcButton">Számít</button>
+        </div>
+        <div class="input">
+          <label for="volume" class="form-label">Térfogat</label>
+          <input type="text" class="form-control"
+          id="volume">
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
